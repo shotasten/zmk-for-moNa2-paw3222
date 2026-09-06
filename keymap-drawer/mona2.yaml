@@ -27,8 +27,8 @@ layers:
   - C
   - V
   - B
-  - func
-  - {t: '&m_rf_ralt', h: symbol}
+  - \
+  - /
   - N
   - M
   - ','
@@ -40,8 +40,8 @@ layers:
   - LEFT ALT
   - {t: SPACE, h: num_func}
   - LEFT SHIFT
-  - \
-  - /
+  - func
+  - {t: '&m_rf_ralt', h: symbol}
   - '&shift_ctl'
   num_func:
   - {t: ▽, type: trans}
@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LCTRL
   - '&mkp MB4'
@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PAGE UP
+  - {t: PAGE UP, type: held}
   - PAGE DOWN
   - RIGHT ALT
   symbol:
@@ -157,7 +157,7 @@ layers:
   - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '-'
   - _
   - '{'
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - ;
   system_layer:
   - F1
