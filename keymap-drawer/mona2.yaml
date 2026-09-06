@@ -398,3 +398,9 @@ combos:
   k: TAB
 - p: [16, 17]
   k: Alt+Ctl+Gui+S
+- p: [17, 18]
+  k: '&mkp MB1'
+- p: [18, 17, 19]
+  k: '&mkp MB3'
+- p: [18, 19]
+  k: '&mkp MB2'
