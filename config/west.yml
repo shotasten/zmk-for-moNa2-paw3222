@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/sayu-hub
     # - name: badjeff    # <-- PMW3610
     #   url-base: https://github.com/badjeff
-    - name: sekigon-gonnoc  # <-- PAW3222
-      url-base: https://github.com/sekigon-gonnoc
+    - name: shotasten  # <-- PAW3222 (8ms polling fork)
+      url-base: https://github.com/shotasten
     - name: caksoylar  # <-- RGB LED
       url-base: https://github.com/caksoylar  
     - name: zettaface  # <-- Input Processor Keybind
@@ -29,8 +29,8 @@ manifest:
     #   remote: badjeff
     #   revision: main
     - name: zmk-driver-paw3222
-      remote: sekigon-gonnoc
-      revision: main
+      remote: shotasten
+      revision: d509519bf437a498d1f05f4b87af5801e0d9f5c5
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: v0.3
