@@ -205,7 +205,7 @@
             display-name = "MOUSE";
             bindings = <
 &trans  &trans    &trans    &trans     &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &mkp MB1  &mkp MB3  &mkp MB2   &trans              &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &trans
+&trans  &mkp MB1  &mkp MB3  &mkp MB2   &trans              &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &mkp MB3
 &trans  &trans    &trans    &trans     &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
 &trans  &trans    &trans    &kp LCTRL  &trans  &trans      &trans  &trans                                &trans
             >;
