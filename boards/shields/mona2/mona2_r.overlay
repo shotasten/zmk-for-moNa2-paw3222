@@ -62,10 +62,10 @@
     device = <&trackball_central>;
 
     // 通常のポインター移動 + オートマウスレイヤー
-    input-processors = <&zip_temp_layer 3 350>;  // 移動時にレイヤー3へ切り替え、最後の移動から350ms後に解除
+    input-processors = <&zip_temp_layer 7 350>;  // 移動時にMOUSEレイヤーへ切り替え、最後の移動から350ms後に解除
 
     scroller {
-        layers = <5>;
+        layers = <8>;
         input-processors = <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
                            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,   //スクロールのY軸反転
                            <&zip_scroll_scaler 1 10>;                          //スクロール量を1/10倍
