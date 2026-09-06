@@ -132,10 +132,10 @@
         num_func_layer {
             display-name = "num_func";
             bindings = <
-&trans              &trans  &trans         &trans                &trans                                                &kp KP_EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE
-&kp LC(UP_ARROW)    &trans  &trans         &trans                &trans                               &trans           &kp KP_DOT    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY
-&kp LC(DOWN_ARROW)  &trans  &kp LS(LG(S))  &kp LS(LA(NUMBER_4))  &kp LS(LA(NUMBER_5))  &kp ENTER      &kp KP_NUMBER_0  &kp KP_N0     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS
-&trans              &trans  &trans         &trans                &pw                   &pw            &kp BACKSPACE    &kp DELETE                                                       &kp KP_PLUS
+&trans              &trans  &trans         &trans                &trans                                                 &kp KP_EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE
+&kp LC(UP_ARROW)    &trans  &trans         &trans                &trans                                &trans           &kp KP_DOT    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY
+&kp LC(DOWN_ARROW)  &trans  &kp LS(LG(S))  &kp LS(LA(NUMBER_4))  &kp LS(LA(NUMBER_5))  &kp C_MUTE      &kp KP_NUMBER_0  &kp KP_N0     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS
+&trans              &trans  &trans         &trans                &pw                   &pw             &kp BACKSPACE    &kp DELETE                                                       &kp KP_PLUS
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -144,10 +144,10 @@
         function_layer {
             display-name = "func";
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                             &kp LS(LG(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &kp UP    &kp HOME   &kp END
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10              &bt BT_SEL 0  &kp LSHFT               &kp LEFT                 &kp DOWN  &kp RIGHT  &kp SPACE
-&kp F11  &kp F12  &trans  &trans  &trans   &trans      &trans        &kp LCTRL               &mkp MB4                 &trans    &mkp MB5   &kp DEL
-&trans   &trans   &trans  &trans  &trans   &trans      &trans        &bt BT_SEL 0                                                          &kp RIGHT_ALT
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                 &kp LS(LG(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &kp UP    &kp HOME   &kp END
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10                  &bt BT_SEL 0  &kp LSHFT               &kp LEFT                 &kp DOWN  &kp RIGHT  &kp SPACE
+&kp F11  &kp F12  &trans  &trans  &trans   &kp C_MUTE      &trans        &kp LCTRL               &mkp MB4                 &trans    &mkp MB5   &kp DEL
+&trans   &trans   &trans  &trans  &trans   &trans          &trans        &bt BT_SEL 0                                                          &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -205,7 +205,7 @@
             display-name = "MOUSE";
             bindings = <
 &trans  &trans    &trans    &trans     &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &mkp MB1  &mkp MB3  &mkp MB2   &trans              &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &mkp MB1  &mkp MB3  &mkp MB2   &trans              &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &trans
 &trans  &trans    &trans    &trans     &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
 &trans  &trans    &trans    &kp LCTRL  &trans  &trans      &trans  &trans                                &trans
             >;
