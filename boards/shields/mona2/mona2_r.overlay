@@ -2,17 +2,6 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
-/ {
-    // カスタム入力プロセッサー: 閾値付き一時レイヤー
-    zip_threshold_temp_layer: input_processor_threshold_temp_layer {
-        compatible = "zmk,input-processor-threshold-temp-layer";
-        #input-processor-cells = <2>;
-        activation-threshold = <100>;  // トラックボールを100ピクセル移動後にレイヤー3に切り替え
-        require-prior-idle-ms = <0>;
-        excluded-positions = <>;
-    };
-};
-
 &default_transform {
     col-offset = <6>;
 };
@@ -72,8 +61,8 @@
     status = "okay";
     device = <&trackball_central>;
 
-    // 通常のポインター移動 + オートマウスレイヤー（閾値付き）
-    input-processors = <&zip_threshold_temp_layer 3 500>;  //オートマウスレイヤー（100ピクセル移動後、レイヤー3に500ms切り替え）
+    // 通常のポインター移動 + オートマウスレイヤー
+    input-processors = <&zip_temp_layer 3 350>;  // 移動時にレイヤー3へ切り替え、最後の移動から350ms後に解除
 
     scroller {
         layers = <5>;
