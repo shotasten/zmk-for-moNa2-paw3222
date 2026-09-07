@@ -126,7 +126,7 @@
 &kp LCTRL  &kp LA(LEFT_SHIFT)  &kp LEFT_GUI  &kp LEFT_ALT  &lt NUM_FUNC_LAYER SPACE  &kp LEFT_SHIFT      &mo FUNCTION_LAYER      &lr_ralt SYMBOL_LAYER 0                                &kp SLASH
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         num_func_layer {
@@ -204,10 +204,10 @@
         mouse_layer {
             display-name = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans     &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &mkp MB1  &mkp MB3  &mkp MB2   &trans              &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &mkp MB3
-&trans  &trans    &trans    &trans     &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
-&trans  &trans    &trans    &kp LCTRL  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans    &trans    &trans    &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans              &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &mkp MB3
+&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
+&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
