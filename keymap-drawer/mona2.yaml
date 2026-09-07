@@ -102,7 +102,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
   - LSHFT
   - LEFT
   - DOWN
@@ -338,7 +338,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
