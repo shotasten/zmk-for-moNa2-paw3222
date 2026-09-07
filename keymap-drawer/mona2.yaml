@@ -71,7 +71,7 @@ layers:
   - Sft+Alt+4
   - Sft+Alt+5
   - MUTE
-  - KP 0
+  - DELETE
   - KP 0
   - KP 1
   - KP 2
@@ -84,7 +84,7 @@ layers:
   - {t: '&pw', type: held}
   - '&pw'
   - BACKSPACE
-  - DELETE
+  - KP 0
   - KP PLUS
   func:
   - F1
