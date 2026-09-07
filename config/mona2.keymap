@@ -144,10 +144,10 @@
         function_layer {
             display-name = "func";
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                 &kp LS(LG(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &kp UP    &kp HOME   &kp END
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10                  &bt BT_SEL 0  &kp LSHFT               &kp LEFT                 &kp DOWN  &kp RIGHT  &kp SPACE
-&kp F11  &kp F12  &trans  &trans  &trans   &kp C_MUTE      &trans        &kp LCTRL               &mkp MB4                 &trans    &mkp MB5   &kp DEL
-&trans   &trans   &trans  &trans  &trans   &trans          &trans        &bt BT_SEL 1                                                          &kp RIGHT_ALT
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                           &kp LS(LG(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &kp UP    &kp HOME   &kp END
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10                  &trans  &kp LSHFT               &kp LEFT                 &kp DOWN  &kp RIGHT  &kp SPACE
+&kp F11  &kp F12  &trans  &trans  &trans   &kp C_MUTE      &trans  &kp LCTRL               &mkp MB4                 &trans    &mkp MB5   &kp DEL
+&trans   &trans   &trans  &trans  &trans   &trans          &trans  &bt BT_SEL 1                                                          &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
