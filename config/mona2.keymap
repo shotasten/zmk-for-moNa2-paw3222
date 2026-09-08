@@ -126,7 +126,7 @@
 &kp LCTRL  &kp LA(LEFT_SHIFT)  &kp LEFT_GUI  &kp LEFT_ALT  &lt NUM_FUNC_LAYER SPACE  &kp LEFT_SHIFT      &mo FUNCTION_LAYER      &lr_ralt SYMBOL_LAYER 0                                &kp SLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOLUME_UP>;
         };
 
         num_func_layer {
