@@ -49,7 +49,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP EQUAL
+  - '@'
   - KP 7
   - KP 8
   - KP 9
@@ -60,7 +60,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP DOT
+  - KP EQUAL
   - KP 4
   - KP 5
   - KP 6
@@ -72,7 +72,7 @@ layers:
   - Sft+Alt+5
   - MUTE
   - DELETE
-  - KP 0
+  - KP DOT
   - KP 1
   - KP 2
   - KP 3
@@ -313,9 +313,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
