@@ -132,9 +132,9 @@
         num_func_layer {
             display-name = "num_func";
             bindings = <
-&trans              &trans  &trans         &trans                &trans                                               &kp KP_EQUAL     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE
-&kp LC(UP_ARROW)    &trans  &trans         &trans                &trans                                &trans         &kp KP_DOT       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY
-&kp LC(DOWN_ARROW)  &trans  &kp LS(LG(S))  &kp LS(LA(NUMBER_4))  &kp LS(LA(NUMBER_5))  &kp C_MUTE      &kp DELETE     &kp KP_N0        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS
+&trans              &trans  &trans         &trans                &trans                                               &kp AT_SIGN      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE
+&kp LC(UP_ARROW)    &trans  &trans         &trans                &trans                                &trans         &kp KP_EQUAL     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY
+&kp LC(DOWN_ARROW)  &trans  &kp LS(LG(S))  &kp LS(LA(NUMBER_4))  &kp LS(LA(NUMBER_5))  &kp C_MUTE      &kp DELETE     &kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS
 &trans              &trans  &trans         &trans                &pw                   &pw             &kp BACKSPACE  &kp KP_NUMBER_0                                                     &kp KP_PLUS
             >;
 
@@ -204,10 +204,10 @@
         mouse_layer {
             display-name = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans    &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans              &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &mkp MB3
-&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
-&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans              &trans  &trans  &mkp MB1  &mo 8     &mkp MB2  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
